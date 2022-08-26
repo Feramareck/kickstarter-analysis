@@ -9,7 +9,7 @@ This project aims to analyze data from different campaigns and to know how they 
 
 ### Analysis of Outcomes Based on Launch Date:
 For this analysis it was necessary to work first on the Kickstarter tab.
-To convert to date the column "launched_at" and create the column "Date Created Conversion" we used the formula (((J2/60)/60)/24)+DATE(1970,1,1)
+> To convert to date the column "launched_at" and create the column "Date Created Conversion" we used the formula (((J2/60)/60)/24)+DATE(1970,1,1)
 For the separation of the "Category and subcategory" column in 2 and facilitate the use of Category as a filter we use the Text to Columns command using '/' as delimiter and created the columns "Category" and "Subcategory".
 To obtain the results of the Theaters based on the launch dates, we created a Pivot Table in a new worksheet labeled "Theater Outcomes by Launch Date" with the following parameters:
 Filters: 
